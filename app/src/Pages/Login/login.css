@@ -1,0 +1,79 @@
+.login{
+    background-color:  hsl(237, 14%, 26%) ;
+    min-height: 55vh;
+    max-height: 69vh;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px hsl(240, 6%, 17%);
+    padding: 20px;
+    text-align: center;  
+    overflow-wrap: inherit;
+  }
+  
+  .login h3{
+      color: white;
+      letter-spacing: 2px;
+      margin-top: 8px;
+      margin-bottom: 25px;
+      font-size: 30px;
+  }
+  
+  .login h3 span{
+    color: hsl(240, 13%, 12%);
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login form input{
+    color: white;
+    width: 200px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid hsl(240, 13%, 12%);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  .login form button{
+    font-size: 16px;
+    padding: 10px 50px;
+    margin: 2px 0px;
+    background: hsl(240, 13%, 12%);
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .login form button:hover{
+    cursor: pointer;
+    background-color: hsl(240, 9%, 13%);
+  }
+  .signup-link{
+    margin-bottom: 20px;
+  }
+  .signup-link p{
+    color: whitesmoke;
+    margin-top: 12px;
+    margin-bottom: 25px;
+  }
+  
+  .signup-btn{
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid hsl(240, 13%, 12%);
+    border-radius: 20px;
+    text-decoration: none;
+  }

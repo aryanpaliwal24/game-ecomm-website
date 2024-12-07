@@ -1,0 +1,157 @@
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: hsl(235, 24%, 19%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background: hsl(235, 21%, 11%);
+  width: 100%;
+  color: aliceblue;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 32px 0 18px;
+}
+
+header img {
+  float: left;
+  height: 100px;
+  width: 240px;
+  opacity: 0.7;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+header nav li {
+  cursor: pointer;
+  margin-left: 20px;
+  list-style: none;
+}
+
+header nav li:hover{
+  color: hsl(0, 4%, 36%);
+}
+
+header nav li {
+  position: relative;
+  display: inline-block;
+}
+
+header nav li button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header nav li div {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  top: 10;
+  border-radius: 5px;
+}
+
+header nav li:hover div {
+  display: block;
+}
+
+header nav li .dropdown-content .dropdown-text {
+  color: hsl(235, 21%, 11%);
+  padding: 16px 10px;
+  font-weight: 400;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+header nav li .dropdown-content .dropdown-text:hover {
+  background-color: hsl(235, 21%, 11%);
+  color: hsl(236, 6%, 44%);
+}
+
+header nav li Link {
+  text-decoration: none;
+}
+
+header nav li button {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer-container {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.social-link:hover {
+  color: #27ae60;
+}
+
+.social-link i {
+  font-size: 1.5em;
+}
